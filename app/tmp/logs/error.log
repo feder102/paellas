@@ -1,0 +1,172 @@
+2016-08-11 18:27:20 Error: [MissingControllerException] Controller class WaitersController could not be found.
+Exception Attributes: array (
+  'class' => 'WaitersController',
+  'plugin' => NULL,
+)
+Request URL: /paella/waiters
+Stack Trace:
+#0 /var/www/html/paella/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-11 18:38:14 Error: [MissingControllerException] Controller class WaitersController could not be found.
+Exception Attributes: array (
+  'class' => 'WaitersController',
+  'plugin' => NULL,
+)
+Request URL: /paella/waiters
+Stack Trace:
+#0 /var/www/html/paella/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-11 18:39:36 Error: [MissingControllerException] Controller class OrdersController could not be found.
+Exception Attributes: array (
+  'class' => 'OrdersController',
+  'plugin' => NULL,
+)
+Request URL: /paella/orders
+Stack Trace:
+#0 /var/www/html/paella/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-11 18:53:10 Error: [MissingControllerException] Controller class OrdersController could not be found.
+Exception Attributes: array (
+  'class' => 'OrdersController',
+  'plugin' => NULL,
+)
+Request URL: /paella/orders
+Stack Trace:
+#0 /var/www/html/paella/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-11 18:53:15 Error: [MissingControllerException] Controller class OrderController could not be found.
+Exception Attributes: array (
+  'class' => 'OrderController',
+  'plugin' => NULL,
+)
+Request URL: /paella/order
+Stack Trace:
+#0 /var/www/html/paella/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-11 18:54:24 Error: [MissingViewException] View file "Orders/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Orders/index.ctp',
+)
+Request URL: /paella/orders
+Stack Trace:
+#0 /var/www/html/paella/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/paella/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrdersController), Object(CakeRequest))
+#4 /var/www/html/paella/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-08-11 18:54:35 Error: [MissingViewException] View file "Orders/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Orders/index.ctp',
+)
+Request URL: /paella/orders
+Stack Trace:
+#0 /var/www/html/paella/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/paella/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrdersController), Object(CakeRequest))
+#4 /var/www/html/paella/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-08-11 19:01:29 Error: [MissingControllerException] Controller class FoodsordersController could not be found.
+Exception Attributes: array (
+  'class' => 'FoodsordersController',
+  'plugin' => NULL,
+)
+Request URL: /paella/foodsorders
+Stack Trace:
+#0 /var/www/html/paella/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-11 19:01:34 Error: [MissingViewException] View file "FoodsOrders/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'FoodsOrders/index.ctp',
+)
+Request URL: /paella/foods_orders
+Stack Trace:
+#0 /var/www/html/paella/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/paella/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FoodsOrdersController), Object(CakeRequest))
+#4 /var/www/html/paella/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-08-11 19:20:41 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /paella/
+Stack Trace:
+#0 /var/www/html/paella/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 /var/www/html/paella/lib/Cake/Controller/Controller.php(644): ComponentCollection->init(Object(PagesController))
+#2 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /var/www/html/paella/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-08-11 19:21:23 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /paella/
+Stack Trace:
+#0 /var/www/html/paella/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 /var/www/html/paella/lib/Cake/Controller/Controller.php(644): ComponentCollection->init(Object(PagesController))
+#2 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /var/www/html/paella/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-08-11 19:21:32 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /paella/
+Stack Trace:
+#0 /var/www/html/paella/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 /var/www/html/paella/lib/Cake/Controller/Controller.php(644): ComponentCollection->init(Object(PagesController))
+#2 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /var/www/html/paella/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-08-11 19:21:35 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /paella/waiters
+Stack Trace:
+#0 /var/www/html/paella/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 /var/www/html/paella/lib/Cake/Controller/Controller.php(644): ComponentCollection->init(Object(WaitersController))
+#2 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/html/paella/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(WaitersController), Object(CakeRequest))
+#4 /var/www/html/paella/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-08-11 19:35:30 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/paella/app/Controller/FoodsController.php, line 61]
+2016-08-11 19:35:30 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /paella/foods/add
+Stack Trace:
+#0 /var/www/html/paella/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/p...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/p...', 61, Array)
+#2 /var/www/html/paella/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/p...', 61, Array)
+#3 /var/www/html/paella/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-11 19:35:34 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/paella/app/Controller/FoodsController.php, line 61]
+2016-08-11 19:35:34 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /paella/foods/add
+Stack Trace:
+#0 /var/www/html/paella/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/p...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/p...', 61, Array)
+#2 /var/www/html/paella/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/p...', 61, Array)
+#3 /var/www/html/paella/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-14 11:41:45 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/paella/app/Controller/FoodsController.php, line 88]
+2016-08-14 11:41:45 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /paella/foods/edit/1
+Stack Trace:
+#0 /var/www/html/paella/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/p...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/p...', 88, Array)
+#2 /var/www/html/paella/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/p...', 88, Array)
+#3 /var/www/html/paella/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
